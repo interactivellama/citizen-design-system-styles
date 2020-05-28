@@ -1,0 +1,10 @@
+parser: 'babel-eslint'
+extends:
+  - standard
+  - standard-jsx
+  - prettier
+  - prettier/standard
+  - prettier/react
+rules:
+  react/jsx-key: ['error']
+  no-useless-escape: ['off']

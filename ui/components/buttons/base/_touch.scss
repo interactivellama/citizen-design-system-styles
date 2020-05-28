@@ -1,0 +1,4 @@
+.slds-button {
+  @include border-box-line-height($height-tappable);
+  font-weight: $font-weight-bold;
+}

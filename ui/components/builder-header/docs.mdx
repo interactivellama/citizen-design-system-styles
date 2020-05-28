@@ -1,0 +1,44 @@
+import CodeView from '../../../shared/components/CodeView';
+import CodeBlock from '../../../shared/components/CodeBlock';
+import Example from '../../../shared/components/Example';
+import Blockquote from '../../../shared/components/Blockquote';
+import BuilderHeader from './index.jsx';
+
+<div className="doc lead">
+  Every builder needs a builder header, which contains basic navigation
+  elements. It also shows the builder type and content name.
+</div>
+
+<CodeView exampleOnly isViewport demoStyles="height: 132px;">
+  <BuilderHeader showToolbar />
+</CodeView>
+
+## About Builder Header
+
+To learn more about the Builder pattern in general, check out our [guidelines](/guidelines/builder), which includes a section about how to use the [Builder Header](/guidelines/builder/#Builder-Header).
+
+## Base
+
+<Example title="Base">
+  <CodeView isViewport demoStyles="height: 132px;">
+    <BuilderHeader />
+  </CodeView>
+</Example>
+
+## Variations
+
+### With a Truncated Name
+
+<Example title="Truncated">
+  <CodeView isViewport demoStyles="height: 132px;">
+    <BuilderHeader docName="Page Type with a very very long name that will truncate when the container is not wide enough to contain this content completely" />
+  </CodeView>
+</Example>
+
+### With a Toolbar
+
+<Example title="Toolbar">
+  <CodeView isViewport demoStyles="height: 132px;">
+    <BuilderHeader showToolbar />
+  </CodeView>
+</Example>
