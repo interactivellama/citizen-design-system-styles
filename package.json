@@ -54,7 +54,7 @@
     "@storybook/addons": "5.3.8",
     "@storybook/react": "5.3.8",
     "@storybook/theming": "5.3.8",
-    "ajv": "6.10.0",
+    "ajv": "6.12.3",
     "async": "2.3.0",
     "autoprefixer": "9.7.4",
     "axe-core": "3.0.3",
